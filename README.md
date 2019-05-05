@@ -11,7 +11,7 @@ Since my mid-term project is a program written in Java, I use the keyboard to ac
 Component Parts
 
 Arduino Uno, Breadboard, micro servos with horns x3, wires, external keyboard, drum sticks x3.
-How to connect please see the assembly tutorial.jpg
+How to connect please see the mearm-uno-servo-1.jpg	
 
 Timeline
 
