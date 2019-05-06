@@ -15,37 +15,37 @@ void setup()
   Serial.println("Startup");
 }
 void firea(Servo a) {
-  a.write(0);
-  delay(300);
-  a.write(90);
-  delay(300);
-  a.write(0);
+  a.write(160);
+  delay(200);
+  a.write(135);
+  delay(200);
+  a.write(160);
 }
 void fireb(Servo b) {
   b.write(135);
-  delay(300);
-  b.write(45);
+  delay(200);
+  b.write(90);
 }
 void firec(Servo c) {
   c.write(90);
-  delay(300);
-  c.write(0);
-  delay(300);
+  delay(200);
+  c.write(45);
+  delay(200);
   c.write(90);
 }
 void holda(Servo a) {
-  a.write(0);
-  delay(300);
-  a.write(0);
+  a.write(160);
+  delay(200);
+  a.write(160);
 }
 void holdb(Servo b) {
-  b.write(45);
-  delay(300);
-  b.write(45);
+  b.write(90);
+  delay(200);
+  b.write(90);
 }
 void holdc(Servo c) {
   c.write(90);
-  delay(300);
+  delay(200);
   c.write(90);
 }
 //firea(servoa);
@@ -64,116 +64,116 @@ void loop() {
 holda(servoa);
 holdb(servob);
 holdc(servoc);
-delay(500);
+delay(300);
 
 // Hit the first one
 firea(servoa);
 holdb(servob);
 holdc(servoc);
 
-delay(500);
+delay(300);
 
 // Hit the second one
 holda(servoa);
 fireb(servob);
 holdc(servoc);
 
-delay(500);
+delay(300);
 
 // Hit the third one
 holda(servoa);
 holdb(servob);
 firec(servoc);
 
-delay(500);
+delay(300);
 
 holda(servoa);
 fireb(servob);
 holdc(servoc);
 
-delay(500);
+delay(300);
 
 firea(servoa);
 fireb(servob);
 holdc(servoc);
 
-delay(500);
+delay(300);
 
 firea(servoa);
 holdb(servob);
 holdc(servoc);
 
-delay(500);
+delay(300);
 
 holda(servoa);
 holdb(servob);
 holdc(servoc);
 
-delay(500);
+delay(300);
 
 holda(servoa);
 fireb(servob);
 firec(servoc);
 
-delay(500);
+delay(300);
 
 holda(servoa);
 holdb(servob);
 firec(servoc);
 
-delay(500);
+delay(300);
 
 firea(servoa);
 fireb(servob);
 holdc(servoc);
 
-delay(500);
+delay(300);
 
 holda(servoa);
 fireb(servob);
 holdc(servoc);
 
-delay(500);
+delay(300);
 
 holda(servoa);
 holdb(servob);
 firec(servoc);
 
-delay(500);
+delay(300);
 
 firea(servoa);
 holdb(servob);
 holdc(servoc);
 
-delay(500);
+delay(300);
 
 holda(servoa);
 holdb(servob);
 firec(servoc);
 
-delay(500);
+delay(300);
 
 firea(servoa);
 fireb(servob);
 holdc(servoc);
 
-delay(500);
+delay(300);
 
 firea(servoa);
 holdb(servob);
 firec(servoc);
 
-delay(500);
+delay(300);
 
 holda(servoa);
 fireb(servob);
 holdc(servoc);
 
-delay(500);
+delay(300);
 
 firea(servoa);
 fireb(servob);
 firec(servoc);
 
-delay(500);
+delay(300);
 }
